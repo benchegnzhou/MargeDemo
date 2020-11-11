@@ -11,7 +11,10 @@ import android.view.MenuItem
  * 作者邮箱： mappstore@163.com
  * 功能描述： 
  * 类    名： 增加了注释
- * 备    注： 
+ * 备    注：
+ *
+ *
+ * 这个是小明的分支
  */
 
 class MainActivity : AppCompatActivity() {
