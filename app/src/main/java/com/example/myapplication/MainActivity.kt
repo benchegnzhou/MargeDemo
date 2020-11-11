@@ -12,6 +12,8 @@ import android.view.MenuItem
  * 功能描述： 
  * 类    名： 增加了注释
  * 备    注： dev -> master
+ *
+ * master提交了代码
  */
 
 class MainActivity : AppCompatActivity() {
