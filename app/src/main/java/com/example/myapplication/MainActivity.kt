@@ -6,6 +6,13 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+/**
+ * Created by benchengzhou on 2020/11/11  23:05 .
+ * 作者邮箱： mappstore@163.com
+ * 功能描述： 
+ * 类    名： 增加了注释
+ * 备    注： 
+ */
 
 class MainActivity : AppCompatActivity() {
 
