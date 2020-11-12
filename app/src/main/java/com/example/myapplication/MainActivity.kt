@@ -25,6 +25,8 @@ import android.view.MenuItem
  *
  * 小明期待发版测试，合并前更新下master的线上代码
  *
+ *
+ *  小明提交了代码，看不到这些代码说明代码回滚了
  */
 
 class MainActivity : AppCompatActivity() {
