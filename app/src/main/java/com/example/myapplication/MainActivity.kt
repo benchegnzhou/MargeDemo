@@ -20,6 +20,9 @@ import android.view.MenuItem
  *
  *
  * 小明开发了一半，发现代码需要更新下下
+ *
+ *
+ * 小李发现了SDK出现问题，紧急发包进行了处理
  */
 
 class MainActivity : AppCompatActivity() {
