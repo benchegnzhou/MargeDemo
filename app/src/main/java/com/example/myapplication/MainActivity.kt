@@ -18,6 +18,9 @@ import android.view.MenuItem
  *
  *
  * 小明开发了一半，发现代码需要更新下下
+ *
+ *
+ * 小明发现xiaoli的SDK有问题，需要更新master分支的SDK
  */
 
 class MainActivity : AppCompatActivity() {
