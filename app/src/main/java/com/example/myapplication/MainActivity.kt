@@ -16,6 +16,9 @@ import android.view.MenuItem
  * 我修改了dev的东西 时间 11:15
  *
  * 您当前所在的是dev分支
+ *
+ * 这里测试小伙伴发现了一个bug，之后进行了修改
+ *
  */
 
 class MainActivity : AppCompatActivity() {
