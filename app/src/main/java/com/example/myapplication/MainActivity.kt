@@ -11,15 +11,19 @@ import android.view.MenuItem
  * 作者邮箱： mappstore@163.com
  * 功能描述： 
  * 类    名： 增加了注释
- * 备    注： 这个是 dev 的分支
+ * 备    注： 这个是   --xiaoming - 的分支
  *
- * 我修改了dev的东西 时间 11:15
  *
- * 您当前所在的是dev分支
+ * xiaoming提交了代码
  *
  * 新需求来了，开始忙碌新需求
  *
  * 同学小刘更具新的需求做了一期需求迭代，已发版
+ *
+ *
+ * 小明发现xiaoli的SDK有问题，需要更新master分支的SDK
+ *
+ * 小明期待发版测试，合并前更新下master的线上代码
  *
  */
 
