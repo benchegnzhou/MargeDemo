@@ -11,13 +11,11 @@ import android.view.MenuItem
  * 作者邮箱： mappstore@163.com
  * 功能描述： 
  * 类    名： 增加了注释
- * 备    注： 这个是master的分支
+ * 备    注： 这个是 dev 的分支
  *
+ * 我修改了dev的东西 时间 11:15
  *
- * master提交了代码
- * 
- * 
- * 王华在master上面提交了代码
+ * 您当前所在的是dev分支
  */
 
 class MainActivity : AppCompatActivity() {
