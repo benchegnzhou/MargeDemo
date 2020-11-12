@@ -19,6 +19,8 @@ import android.view.MenuItem
  *
  * 新需求来了，开始忙碌新需求
  *
+ * 同学小刘更具新的需求做了一期需求迭代，已发版
+ *
  */
 
 class MainActivity : AppCompatActivity() {
