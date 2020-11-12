@@ -14,7 +14,7 @@ import android.view.MenuItem
  * 备    注： 这个是   --xiaoming - 的分支
  *
  *
- * master提交了代码
+ * xiaoming提交了代码
  */
 
 class MainActivity : AppCompatActivity() {
