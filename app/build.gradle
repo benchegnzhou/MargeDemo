@@ -4,12 +4,10 @@ plugins {
 }
 
 
-
 apply plugin: 'kotlin-kapt'
 apply plugin: 'kotlin-noarg'
 apply plugin: 'kotlin-allopen'
 apply plugin: 'kotlin-android-extensions'
-
 
 
 android {
@@ -53,4 +51,13 @@ dependencies {
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    //必须使用
+    implementation 'com.lzy.net:okgo:3.0.4'
+
+    //以下三个选择添加，okrx和okrx2不能同时使用
+    implementation 'com.lzy.net:okrx2:2.0.2'
+
+    // if u use AndroidX, use the following
+    implementation 'com.blankj:utilcodex:1.30.5'
 }
