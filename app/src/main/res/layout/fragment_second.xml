@@ -6,22 +6,107 @@
     android:layout_height="match_parent"
     tools:context=".SecondFragment">
 
-    <TextView
-        android:id="@+id/textview_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintBottom_toTopOf="@id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/button_second"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/previous"
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/textview_second" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/textview_second"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginEnd="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_second"
+                app:lottie_loop="true" />
+
+            <!--<com.airbnb.lottie.LottieAnimationView
+                android:id="@+id/animation_view"
+                android:layout_width="160dp"
+                android:layout_height="160dp"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/textview_second"
+                app:lottie_autoPlay="true"
+                app:lottie_fileName="hello-world.json"
+                app:lottie_loop="true" />
+        -->
+
+
+
+            <Button
+                android:id="@+id/button_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/previous"
+                android:layout_marginTop="30dp"
+                app:layout_constraintEnd_toStartOf="@+id/button_2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+            <Button
+                android:id="@+id/button_2"
+                android:layout_width="116dp"
+                android:layout_height="45dp"
+                android:text="单次点赞效果"
+                android:layout_marginTop="30dp"
+                app:layout_constraintLeft_toRightOf="@+id/button_1"
+                app:layout_constraintRight_toLeftOf="@+id/button_3"
+                app:layout_constraintTop_toBottomOf="@+id/animation_view"
+                tools:layout_editor_absoluteX="147dp" />
+
+            <Button
+                android:id="@+id/button_3"
+                android:layout_width="110dp"
+                android:layout_height="45dp"
+                android:text="循环播放效果"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/button_2"
+                android:layout_marginTop="30dp"
+                app:layout_constraintTop_toBottomOf="@+id/animation_view" />
+
+
+            <Button
+                android:id="@+id/button_4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="加载本地文件"
+                app:layout_constraintEnd_toStartOf="@+id/button_2"
+                app:layout_constraintStart_toStartOf="parent"
+                android:layout_marginTop="30dp"
+                app:layout_constraintTop_toBottomOf="@+id/button_1" />
+
+            <Button
+                android:id="@+id/button_5"
+                android:layout_width="116dp"
+                android:layout_height="45dp"
+                android:text="加载json字符串"
+                android:layout_marginTop="30dp"
+                app:layout_constraintLeft_toRightOf="@+id/button_1"
+                app:layout_constraintRight_toLeftOf="@+id/button_3"
+                app:layout_constraintTop_toBottomOf="@+id/button_2"
+                tools:layout_editor_absoluteX="147dp" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
