@@ -11,11 +11,22 @@ import android.view.MenuItem
  * 作者邮箱： mappstore@163.com
  * 功能描述： 
  * 类    名： 增加了注释
- * 备    注：
+ * 备    注： 这个是   --xiaoming - 的分支
  *
  *
- * 这个是小明的分支
- * 小明再次提交了代码 23:41
+ * xiaoming提交了代码
+ *
+ * 新需求来了，开始忙碌新需求
+ *
+ * 同学小刘更具新的需求做了一期需求迭代，已发版
+ *
+ *
+ * 小明发现xiaoli的SDK有问题，需要更新master分支的SDK
+ *
+ * 小明期待发版测试，合并前更新下master的线上代码
+ *
+ *
+ *  小明提交了代码，看不到这些代码说明代码回滚了
  */
 
 class MainActivity : AppCompatActivity() {
