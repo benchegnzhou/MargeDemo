@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
+import com.example.myapplication.util.getStringFromAssets
 import kotlinx.android.synthetic.main.fragment_second.*
 
 
@@ -44,7 +45,7 @@ class SecondFragment : Fragment() {
         }
         button_5.setOnClickListener {
             animation_view.setAnimationFromJson(
-                resources.getString(R.string.animation1_json),
+                getStringFromAssets(requireContext(), "fireworks_icon.json"),
                 "animalJson"
             )
             animation_view.loop(true) //设置动画是否循环播放，true表示循环播放，false表示只播放一次
