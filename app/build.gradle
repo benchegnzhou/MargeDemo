@@ -60,4 +60,8 @@ dependencies {
 
     // if u use AndroidX, use the following
     implementation 'com.blankj:utilcodex:1.30.5'
+
+    implementation 'com.github.yyued:SVGAPlayer-Android:2.5.13'
+
+
 }
